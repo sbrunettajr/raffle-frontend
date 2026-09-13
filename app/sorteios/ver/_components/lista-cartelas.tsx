@@ -3,8 +3,8 @@
 import { useMemo, useState } from "react";
 import type { Sorteio } from "@/lib/types";
 import { cartelaCompleta } from "@/lib/utils/selectors";
-import { CartelaCard } from "@/app/sorteios/[id]/_components/cartela-card";
-import { FiltroCartelas } from "@/app/sorteios/[id]/_components/filtro-cartelas";
+import { CartelaCard } from "@/app/sorteios/ver/_components/cartela-card";
+import { FiltroCartelas } from "@/app/sorteios/ver/_components/filtro-cartelas";
 
 export function ListaCartelas({
   sorteio,

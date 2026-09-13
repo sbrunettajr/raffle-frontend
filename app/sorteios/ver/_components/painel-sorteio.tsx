@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useSorteio } from "@/lib/hooks/use-sorteios";
-import { RegistrarNumeroForm } from "@/app/sorteios/[id]/_components/registrar-numero-form";
-import { HistoricoNumeros } from "@/app/sorteios/[id]/_components/historico-numeros";
-import { FormNovaCartela } from "@/app/sorteios/[id]/_components/form-nova-cartela";
-import { ListaCartelas } from "@/app/sorteios/[id]/_components/lista-cartelas";
+import { RegistrarNumeroForm } from "@/app/sorteios/ver/_components/registrar-numero-form";
+import { HistoricoNumeros } from "@/app/sorteios/ver/_components/historico-numeros";
+import { FormNovaCartela } from "@/app/sorteios/ver/_components/form-nova-cartela";
+import { ListaCartelas } from "@/app/sorteios/ver/_components/lista-cartelas";
 
 export function PainelSorteio({ sorteioId }: { sorteioId: string }) {
   const {

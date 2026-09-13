@@ -13,7 +13,7 @@ export function SorteioCard({
 }) {
   return (
     <div className="flex items-center justify-between gap-4 rounded-lg border border-border bg-surface p-4 shadow-sm">
-      <Link href={`/sorteios/${sorteio.id}`} className="min-w-0 flex-1">
+      <Link href={`/sorteios/ver?id=${sorteio.id}`} className="min-w-0 flex-1">
         <p className="truncate font-medium text-foreground">{sorteio.nome}</p>
         <p className="text-sm text-muted">
           {sorteio.cartelas.length} {sorteio.cartelas.length === 1 ? "cartela" : "cartelas"} ·{" "}

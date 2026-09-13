@@ -15,7 +15,7 @@ export function FormNovoSorteio() {
         evento.preventDefault();
         if (!nome.trim()) return;
         const sorteio = criarSorteio(nome);
-        router.push(`/sorteios/${sorteio.id}`);
+        router.push(`/sorteios/ver?id=${sorteio.id}`);
       }}
       className="flex flex-col gap-2 sm:flex-row"
     >
